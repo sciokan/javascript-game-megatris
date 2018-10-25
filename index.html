@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Megatris</title>
+        <style>
+            body {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                min-width: 750px;
+                margin: 0px 0px 0px 0px;
+                font-family: Arial, Helvetica, sans-serif; 
+                color: #666666;
+                overflow: hidden;
+            }
+		</style>
+        <script src="megatris.js"></script>
+    </head>
+    <body onLoad="init();" onclick="void(0);" onkeydown="inputDown(event);" onresize="rescaleWindow();">  
+        <canvas id="buffer" style="display: none; height: 100%; width: 100%;"></canvas>  
+        <canvas id="canvas" style="height: 100%; width: 100%;"></canvas>  
+    </body>  
+</html>
