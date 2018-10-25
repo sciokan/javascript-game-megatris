@@ -5,4 +5,4 @@ Witten in JavaScript and uses cookies to store your progress.
 
 Play it here!
 
-
+https://sciokan.github.io/javascript-game-megatris/
